@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freefb</title>
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+
+        form {
+            border: 1px solid grey;
+            background-color: rgb(187, 187, 187);
+            width: 600px;
+            height: 600px;
+            margin: 0 auto;
+        }
+
+        #box1 {
+            border: 1px solid blue;
+            width: 600px;
+            height: 30px;
+            background-color: blue;
+        }
+
+        h3 {
+            color: white;
+            margin: auto;
+        }
+
+        #box2 {
+            border: 1px solid rgb(80, 52, 1);
+            background-color: rgb(255, 219, 152);
+            width: 600px;
+            height: 20px;
+        }
+
+        p {
+            margin: auto;
+            color: brown;
+        }
+
+        #box3 {
+            border: 1px solid blue;
+            width: 600px;
+            font-size: small;
+            height: 50px;
+            background-color: rgb(187, 180, 245);
+        }
+
+        label {
+            color: white;
+            margin-left: 10px;
+            font-weight: bold;
+
+        }
+
+        input {
+            padding: 10px;
+            width: 550px;
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+
+        #login {
+            height: 40px;
+            width: 570px;
+            margin-left: 10px;
+            margin-top: 5px;
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+        }
+
+        .bt {
+            text-align: center;
+            color: white;
+        }
+
+        .create {
+            padding: 10px;
+            margin-left: 200px;
+            width: 200px;
+            background-color: green;
+            color: white;
+            font-weight: bold;
+        }
+
+        #password {
+            margin-top: 40px;
+            margin-left: 220px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <form action="box">
+        <div id="box1">
+            <h3>facebook</h3>
+        </div>
+        <div id="box2">
+            <p>You must login first.</p>
+        </div>
+        <div id="box3">
+            <span>By proceeding, you agree to MTN's Terms, which includes letting Facebook request and receive your
+                phone number. <a href="#">Change settings</a></span>
+        </div>
+        <label for="phone number or email address">Phone number or email address</label><br>
+        <input type="text"><br>
+        <label for="password">Password</label><br>
+        <input type="password"><br>
+        <button id="login">Log In</button>
+        <div class="bt">or</div>
+        <button class="create">Create new account</button><br>
+        <a href="#" id="password">Forgotten password?</a>
+    </form>
+</body>
+
+</html>
